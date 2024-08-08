@@ -1,9 +1,10 @@
 # US Household Income (Data Cleaning)
 
-/* RENAME TABLE ushouseholdincome TO us_household_income
+RENAME TABLE ushouseholdincome TO us_household_income
 ;
 ALTER TABLE us_household_stats
-RENAME COLUMN `ï»¿id` to `id`; */
+RENAME COLUMN `ï»¿id` to `id`
+; 
 
 SELECT * FROM us_household_income_schema.us_household_income;
 
